@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    // Mandatory
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+
+    // Optional
+    "oderwat.indent-rainbow",
+    "pkief.material-icon-theme",
+    "seatonjiang.gitmoji-vscode",
+    "streetsidesoftware.code-spell-checker"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "@bhvr-template/api",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "eslint .",
+    "write": "eslint --fix .",
+    "start": "bun src/index.ts --hot",
+    "serve": "NODE_ENV=production bun src/index.ts"
+  },
+  "dependencies": {
+    "@bhvr-template/shared": "workspace:^",
+    "hono": "^4.12.25"
+  },
+  "devDependencies": {
+    "@bhvr-template/eslint-config": "workspace:^",
+    "eslint": "^9.39.4"
+  }
+}

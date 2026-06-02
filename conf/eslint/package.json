@@ -1,0 +1,20 @@
+{
+  "name": "@bhvr-template/eslint-config",
+  "version": "0.0.1",
+  "private": true,
+  "exports": {
+    ".": "./eslint.config.ts",
+    "./create-config": "./src/create-config.ts"
+  },
+  "scripts": {
+    "write": "eslint --fix .",
+    "check": "eslint ."
+  },
+  "dependencies": {
+    "eslint": "^9.39.4",
+    "eslint-plugin-no-relative-import-paths": "^1.6.1",
+    "eslint-plugin-simple-import-sort": "^13.0.0",
+    "eslint-plugin-unused-imports": "^4.4.1",
+    "typescript-eslint": "^8.61.0"
+  }
+}
